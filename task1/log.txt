@@ -1,0 +1,25 @@
+#gitlog task1
+commit ebccba3e0bb31a4fa61e46f472d15d5178cd0475
+Author: xrustalik <xrustalik@gmail.com>
+Date:   Tue Feb 7 12:04:13 2017 +0300
+
+    second status
+
+commit 1e8ff1e8d67ac4f7fa04be9d76c7e9dc1de02c88
+Author: xrustalik <xrustalik@gmail.com>
+Date:   Tue Feb 7 12:01:36 2017 +0300
+
+    fixed
+
+commit b2d3377fc6ea0ccc98195c396289c2daecb2bc67
+Author: xrustalik <xrustalik@gmail.com>
+Date:   Tue Feb 7 11:57:48 2017 +0300
+
+    fixed
+
+commit 9a31485ecb7773723e9d714924970ba8c7391f6c
+Author: xrustalik <xrustalik@gmail.com>
+Date:   Tue Feb 7 11:54:29 2017 +0300
+
+    fixed
+:
