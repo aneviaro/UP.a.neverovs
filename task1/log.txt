@@ -1,4 +1,3 @@
-#gitlog task1
 commit ebccba3e0bb31a4fa61e46f472d15d5178cd0475
 Author: xrustalik <xrustalik@gmail.com>
 Date:   Tue Feb 7 12:04:13 2017 +0300
@@ -22,4 +21,16 @@ Author: xrustalik <xrustalik@gmail.com>
 Date:   Tue Feb 7 11:54:29 2017 +0300
 
     fixed
-:
+
+commit ac9877a816063487d898a89124401734260401ef
+Author: xrustalik <xrustalik@gmail.com>
+Date:   Tue Feb 7 11:48:52 2017 +0300
+
+    fixed
+
+commit c495a9bdd88e2063b73db87e9d61ce736c975d33
+Author: xrustalik <xrustalik@gmail.com>
+Date:   Tue Feb 7 11:42:18 2017 +0300
+
+    first commit
+(END)
