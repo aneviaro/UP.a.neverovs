@@ -11,6 +11,7 @@ a {
 	text-decoration: none;
 }
 a:hover{
+	color:black;
 	text-decoration: underline;
 }
 header {
@@ -126,4 +127,8 @@ header {
 .pieceofnews p{
 	margin-top: 0.5em;
 	margin-left: 0.5em;
+}
+.pieceofnews a{
+	color: black;
+	opacity: 0.7;
 }
