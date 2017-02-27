@@ -58,10 +58,10 @@ header {
 .headliners{
 	margin-left:0.5em; 
 	overflow: auto;
-	width: 50%;
+	width: 48%;
 	height: auto;
 	border:solid;
-	border-width: 1pt;
+	border-width: 0;
 	border-color: #D3D3D3;
 	display:inline-block;   
     position:relative;
@@ -94,4 +94,36 @@ header {
 .headliners .preview_content a{
 	color:white;
 	opacity: 0.8;
+}
+.latest_news{
+	margin-right:0.5em; 
+	display: inline block;
+	overflow: auto;
+	float: right;
+	width:49%;
+}
+.pieceofnews{
+	width: 100%;
+	height: ;
+	display: inline-block;
+	overflow: auto;
+	border:solid;
+	border-width:1pt;
+	border-color: #D3D3D3;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+}
+.pieceofnews:hover{
+	border-left-color: black;
+	border-left-width: 2pt;
+}
+.pieceofnews h4{
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.pieceofnews p{
+	margin-top: 0.5em;
+	margin-left: 0.5em;
 }
