@@ -36,11 +36,17 @@ header {
 	display: inline-block;
 }
 .username {
-	color: black;
+	color: #000;
 	height: 100%;
 	display: inline-block;
 	float: right;
 	padding-right: 3%;
+}
+.username a{
+	color: black;
+}
+.username a:hover{
+	text-decoration: underline;
 }
 .nav_icons{
 	display: inline-block;
