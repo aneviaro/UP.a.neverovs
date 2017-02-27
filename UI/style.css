@@ -6,11 +6,11 @@ body, html {
 	background-color: white;
 	font-family: Arial;
 }
-a {
+body a {
 	color:black;
 	text-decoration: none;
 }
-a:hover{
+body a:hover{
 	color:black;
 	text-decoration: underline;
 }
@@ -145,4 +145,22 @@ header {
 	width:48%;
 	margin-left:0.5em; 
 
+}
+.show_more{
+	width:100%;
+	align-self: center;
+	background-color: #F5F5F5;
+	border:solid;
+	border-width: 1pt;
+	border-color:#D3D3D3;
+	height: 7%;
+}
+.footer{
+	width:100%;
+}
+.footer p{
+	color:black;
+	opacity: 0.4;
+	border-top-color:#D3D3D3;
+	border-width: 1pt;
 }
