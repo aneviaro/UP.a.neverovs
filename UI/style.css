@@ -120,14 +120,16 @@ width:49%;
 }
 
 .pieceofnews {
-width:100%;
-overflow:auto;
-border:solid;
-border-right:none;
-border-top:none;
-border-bottom:none;
-border-color:#D3D3D3;
-border-width:1pt;
+	width: 100%;
+	display: inline-block;
+	overflow: auto;
+	border:solid;
+	border-width:1pt;
+	border-color: #D3D3D3;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+
 }
 
 .pieceofnews:hover {
