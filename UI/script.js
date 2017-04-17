@@ -455,7 +455,7 @@ var articlesRenderer = (function () {
     tags.innerHTML = "";
     article.tags.forEach(function(tag){
         var item = document.createElement("a");
-        item.innerHTML = "<a href=\"\">" + tag + "</a>"+" ";
+        item.innerHTML = "<a href=\"\">" +"#"+ tag + "</a>"+" ";
         tags.appendChild(item);
     });
     return _headlinersTemplate.content.querySelector(".headliner").cloneNode(true);
@@ -471,7 +471,7 @@ var articlesRenderer = (function () {
         tags.innerHTML = "";
         article.tags.forEach(function(tag){
             var item = document.createElement("a");
-            item.innerHTML = "<a href=\"\">" + tag + "</a>"+" ";
+            item.innerHTML = "<a href=\"\">"+"#" + tag + "</a>"+" ";
             tags.appendChild(item);
         });
         return _pieceOfNewsTemplate.content.querySelector(".pieceofnews").cloneNode(true);
@@ -482,12 +482,12 @@ var articlesRenderer = (function () {
         _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews").dataset.id = article.id;
         _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews_h4").textContent = article.title;
         _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews_summary").textContent = article.summary;
-        _actuallypieceOfNewsTemplate.content.querySelector(".author_date").textContent ="by"+" "+ article.author+","+" "+formatDate(article.createdAt);
+        _actuallypieceOfNewsTemplate.content.querySelector(".author_date").textContent =" by"+" "+ article.author+","+" "+formatDate(article.createdAt);
         var tags = _actuallypieceOfNewsTemplate.content.querySelector(".tags");
         tags.innerHTML = "";
         article.tags.forEach(function(tag){
             var item = document.createElement("a");
-            item.innerHTML = "<a href=\"\">" + tag + "</a>"+" ";
+            item.innerHTML = "<a href=\"\">"+"#" + tag + "</a>"+" ";
             tags.appendChild(item);
         });
         return _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews").cloneNode(true);
@@ -556,7 +556,6 @@ function renderArticles() {
         articlesRenderer.insertHeadlinersArticlesToDOM(_headliners);
         articlesRenderer.insertLatestToDOM(latest);
         articlesRenderer.insertActuallyToDOM(actually);
-        // articlesRenderer.insertArticlesToDOM(actually);
 }
 function startApp() {
     articlesRenderer.init();
