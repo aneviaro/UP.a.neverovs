@@ -545,7 +545,7 @@ var articlesRenderer = (function () {
     };
     }());
 
-
+document.addEventListener('DOMContentLoaded', startApp);
 function renderArticles() {
         articlesRenderer.removeHeadlinersFromDOM();
         articlesRenderer.removeLatestFromDOM();
@@ -557,8 +557,8 @@ function renderArticles() {
         articlesRenderer.insertLatestToDOM(latest);
         articlesRenderer.insertActuallyToDOM(actually);
 }
+document.addEventListener('DOMContentLoaded', startApp);
 function startApp() {
     articlesRenderer.init();
     renderArticles();
 }
-document.addEventListener('DOMContentLoaded', startApp);
