@@ -476,22 +476,22 @@ var articlesRenderer = (function () {
         });
         return _pieceOfNewsTemplate.content.querySelector(".pieceofnews").cloneNode(true);
     }
-    function renderActuallyPieceOfNews(article){
-        var _actuallypieceOfNewsTemplate = actuallypieceOfNewsTemplate;
+    // function renderActuallyPieceOfNews(article){
+    //     var _actuallypieceOfNewsTemplate = actuallypieceOfNewsTemplate;
 
-        _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews").dataset.id = article.id;
-        _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews_h4").textContent = article.title;
-        _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews_summary").textContent = article.summary;
-        _actuallypieceOfNewsTemplate.content.querySelector(".author_date").textContent =" by"+" "+ article.author+","+" "+formatDate(article.createdAt);
-        var tags = _actuallypieceOfNewsTemplate.content.querySelector(".tags");
-        tags.innerHTML = "";
-        article.tags.forEach(function(tag){
-            var item = document.createElement("a");
-            item.innerHTML = "<a href=\"\">"+"#" + tag + "</a>"+" ";
-            tags.appendChild(item);
-        });
-        return _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews").cloneNode(true);
-    }
+    //     _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews").dataset.id = article.id;
+    //     _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews_h4").textContent = article.title;
+    //     _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews_summary").textContent = article.summary;
+    //     _actuallypieceOfNewsTemplate.content.querySelector(".author_date").textContent =" by"+" "+ article.author+","+" "+formatDate(article.createdAt);
+    //     var tags = _actuallypieceOfNewsTemplate.content.querySelector(".tags");
+    //     tags.innerHTML = "";
+    //     article.tags.forEach(function(tag){
+    //         var item = document.createElement("a");
+    //         item.innerHTML = "<a href=\"\">"+"#" + tag + "</a>"+" ";
+    //         tags.appendChild(item);
+    //     });
+    //     return _actuallypieceOfNewsTemplate.content.querySelector(".pieceofnews").cloneNode(true);
+    // }
     function renderHeadlinersArticles(_headliners){
     return _headliners.map(function(article){
         return renderHeadliner(article);
@@ -503,7 +503,7 @@ var articlesRenderer = (function () {
     }
     function renderActuallyArticles(actually){
         return actually.map(function(article){
-            return renderActuallyPieceOfNews(article);
+            return renderPieceOfNews(article);
         })
     }
 
@@ -544,7 +544,7 @@ var articlesRenderer = (function () {
     removeActuallyFromDOM:removeActuallyFromDOM,
     };
     }());
-
+ 
 document.addEventListener('DOMContentLoaded', startApp);
 function renderArticles() {
         articlesRenderer.removeHeadlinersFromDOM();
