@@ -63,7 +63,7 @@ width:20%;
 padding-left:5em;
 }
 
-.fa-search,.fa-info,.fa-plus {
+.fa-filter,.fa-info,.fa-plus {
 color:#000;
 padding-left:3%;
 font-size:1.2em;
@@ -77,7 +77,7 @@ font-size:1.2em;
 	transform: scale(1.2);
 
 }
-.fa-search:hover{
+.fa-filter:hover{
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
 	-ms-transform: scale(1.2);
@@ -91,10 +91,37 @@ font-size:1.2em;
 	-o-transform: scale(1.2);
 	transform: scale(1.2);
 }
+#info, #filter{
+    text-align: center;
+    width:100%;
+    border:solid;
+    border-top: none;
+    border-width:1pt;
+    border-color: #D3D3D3;
+}
+.common_container-header{
+display:inline;
+overflow:hidden;
+}
+.headliner_h3{
+padding-left: 0.5em;
+margin-bottom:0.1em;
+padding-bottom:0.1em;
+display:inline;
+}
+#common_container{
+    overflow: auto;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
 .headliners_list {
+    height:100%;
 	width:47%;
 	float:left;
-	margin-top: 2em;
+	margin-top:1em;
 }
 
 .headliner {
@@ -107,7 +134,7 @@ position:relative;
 opacity:1;
 border-color:#D3D3D3;
 border-width:0;
-	transition:all 0.2s linear;
+transition:all 0.2s linear;
 }
 .headliner:hover {
 opacity:0.8;
@@ -149,7 +176,8 @@ opacity:0.8;
 margin-right:.3em;
 float:right;
 width:47%;
-margin-top: 2em;
+height: 100%;
+margin-top: 1em;
 }
 .pieceofnews {
 	width: 100%;
@@ -192,28 +220,27 @@ opacity:0.7;
 }
 
 .actually {
-float:left;
-width:47%;
-margin-left:.5em;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 3em;
+width:60%;
 }
+.showmore{
+width: 60%;
+margin-left:20%;
+margin-right: 20%;
+margin-bottom:2em;
+float: left;
+text-align: center;
 
-.show_more {
-width:100%;
-align-self:center;
-background-color:#F5F5F5;
-border:solid;
-height:7%;
-border-color:#D3D3D3;
-border-width:1pt;
 }
-
-.footer {
-width:100%;
+.fa-arrow-down{
+margin-top: 1.5em;
+transition: all 0.07s linear;
 }
-
-.footer p {
-color:#000;
-opacity:0.4;
-border-top-color:#D3D3D3;
-border-width:1pt;
+.fa-arrow-down:hover{
+transform: translateY(+0.2em);
+}
+.hidden{
+display:none;
 }

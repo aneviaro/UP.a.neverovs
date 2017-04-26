@@ -9,6 +9,7 @@
 	<meta name = "author" content="Alexandra Neverovskaya">
 	<link href="style.css" rel="stylesheet">
 	<script src="https://use.fontawesome.com/04612b09d3.js"></script>
+		<script src="jquery-3.2.1.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -18,25 +19,71 @@
 			</div>
 			<div class="nav_icons">
 			<p>
-				<a href="#"><i class="fa fa-plus fa-lg" title="Добавить новость"></i></a>
-				<a href="#"><i class="fa fa-info fa-lg" title="Инфо"></i></a>
-				<a href="#"><i class="fa fa-search fa-lg" title="Поиск"></i></a>
+				<i class="fa fa-plus fa-lg" title="Добавить новость"></i>
+				<i class="fa fa-info fa-lg" title="Инфо" onclick="toggler('info');"></i>
+				<i class="fa fa-filter fa-lg" title="Поиск" onclick="toggler('filter');"></i>
+
+
 			</p>
 			</div>
 			<div class="username">
+
 				<p><a href="#">Alexandra</a> / <a href="#">Выйти</a></p>
 			</div>
 		</header>
-
-		<div class="headliners_list">
+		<div id="filter" class="hidden">
+				<form class="filters-form">
+					<p>Автор
+					<select name="author" id="author">
+						<option value="all" selected>Неважно</option>
+						<option value="Antony">Antony</option>
+						<option value="Max">Max</option>
+						<option value="Dr.Cormier">Dr.Cormier</option>
+						<option value="Vitalik">Vitalik</option>
+					</select>
+					</p>
+					<p>Дата c
+					<input type="date" name="date-from" id="date-from">
+					по
+					<input type="date" name="date-to" id="date-to">
+					</p>
+					<p>Теги
+					<!--<input type="text" name="tags">-->
+					<select name="tags" id="tags">
+						<option disabled selected></option>
+						<option value="технологии">технологии</option>
+						<option value="космос">космос</option>
+						<option value="наука">наука</option>
+						<option value="общество">общество</option>
+					</select>
+					</p>
+					<input type="button" name="submit" id="submit" value="Показать">
+					<!--<button type="button" class="filter-news">Показать</button>-->
+				</form>
 		</div>
+		<div id="info" class="hidden">
+			<p>Неверовская Александра, 7 группа,
+				<a href="mailto:xrustalik@gmail.com"><i class="fa fa-envelope-o fa-lg"></i></a>
+				<a href="https://github.com/xrustalik"target="_blank"><i class="fa fa-github fa-lg"></i></a>
+				<a href="https://vk.com/id155784616"target="_blank"><i class="fa fa-vk fa-lg"></i></a>
+			</p>
 
-		<div class="latest_news">
 		</div>
-
+		<div class="common_container_header">
+			<h3 class="headliner_h3">Хэдлайнеры</h3>
+			<i class="fa fa-arrow-down fa-lg" id="show_common_container" onclick="toggler('common_container');"></i>
+		</div>
+        <div id="common_container" class="hidden" >
+			<div class="headliners_list">
+			</div>
+			<div class="latest_news">
+			</div>
+		</div>
 		<div class="actually">
 		</div>
-
+		<div class = "showmore">
+			<i class="fa fa-arrow-down fa-3x" title="Добавить новость" id="show_more"></i>
+		</div>
         <template id="pieceofnews_template">
             <div class="pieceofnews">
                 <h4 class="pieceofnews_h4"></h4>

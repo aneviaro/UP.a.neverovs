@@ -91,7 +91,7 @@ var articleModel=(function () {
         id: "9",
         title: "Отметил 23 февраля: в Минске сильно пьяный водитель на Opel врезался в столб.",
         summary: "В Минске пьяный водитель на Opel врезался в столб, после чего попытался убежать. Об этом AUTO.TUT.BY рассказала представитель ГАИ Московского района Любовь Трепашко.",
-        createdAt: new Date("2017-O3-06T12:29:00"),
+        createdAt: new Date("2017-O3-06T11:30:00"),
         author: "Vitalik",
         content: "В Минске пьяный водитель на Opel врезался в столб, после чего попытался убежать. Об этом AUTO.TUT.BY рассказала представитель ГАИ Московского района Любовь Трепашко.",
         imageSource: "https://img.tyt.by/620x620s/n/avto/06/7/3_pyanyy_voditel_opel_stolb_20170227.jpg",
@@ -217,7 +217,84 @@ var articleModel=(function () {
         imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
         imgStatus:"1",
         tags: ["Брест", "право"]
-    }
+    },
+    {
+        id: "21",
+        title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+        summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+        createdAt: new Date("2017-03-13T10:23:49"),
+        author: "Cat223",
+        content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+        imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+        imgStatus:"1",
+        tags: ["Брест", "право"]
+    },
+    {
+                id: "22",
+                title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+                summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+                createdAt: new Date("2017-03-13T10:23:49"),
+                author: "Cat223",
+                content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+                imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+                imgStatus:"1",
+                tags: ["Брест", "право"]
+    },
+    {
+            id: "23",
+            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+            createdAt: new Date("2017-03-13T10:23:49"),
+            author: "Cat223",
+            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+            imgStatus:"1",
+            tags: ["Брест", "право"]
+    },
+    {
+            id: "24",
+            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+            createdAt: new Date("2017-03-13T10:23:49"),
+            author: "Cat223",
+            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+            imgStatus:"1",
+            tags: ["Брест", "право"]
+    },
+    {
+            id: "25",
+            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+            createdAt: new Date("2017-03-13T10:23:49"),
+            author: "Cat223",
+            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+            imgStatus:"1",
+            tags: ["Брест", "право"]
+    },
+    {
+            id: "26",
+            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+            createdAt: new Date("2017-03-13T10:23:49"),
+            author: "Cat223",
+            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+            imgStatus:"1",
+            tags: ["Брест", "право"]
+    },
+    {
+            id: "27",
+            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
+            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
+            createdAt: new Date("2017-03-13T10:23:49"),
+            author: "Cat223",
+            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
+            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
+            imgStatus:"1",
+            tags: ["Брест", "право"]
+    },
 ];
 
     var tags = ["Брест", "Минск", "Гомель", "Орша", "Беларусь", "Евросоюз", "Пинск", "Волковысск", "Гродно",
@@ -428,7 +505,6 @@ var articleModel=(function () {
 var articlesRenderer = (function () {
     var pieceOfNewsTemplate;
     var headlinersTemplate;
-    var actuallypieceOfNewsTemplate;
     var actuallyListNode;
     var latestListNode;
     var headlinersListNode;
@@ -436,7 +512,6 @@ var articlesRenderer = (function () {
     function init() {
          pieceOfNewsTemplate = document.querySelector("#pieceofnews_template");
          headlinersTemplate = document.querySelector("#headliner_template");
-         actuallypieceOfNewsTemplate = document.querySelector("#actually_pieceofnews_template");
          actuallyListNode = document.querySelector(".actually");
          latestListNode = document.querySelector(".latest_news");
          headlinersListNode = document.querySelector(".headliners_list");
@@ -528,15 +603,14 @@ var articlesRenderer = (function () {
     removeActuallyFromDOM:removeActuallyFromDOM,
     };
     }());
- 
-document.addEventListener('DOMContentLoaded', startApp);
 function renderArticles() {
         articlesRenderer.removeHeadlinersFromDOM();
         articlesRenderer.removeLatestFromDOM();
         articlesRenderer.removeActuallyFromDOM();
-        var latest = articleModel.getArticles(0,10);
+        var rand = Math.random()*15;
+        var latest = articleModel.getArticles(0,3);
         var _headliners = articleModel.getArticles(7,2,{imgStatus:"1"});
-        var actually = articleModel.getArticles(11,19);
+        var actually = articleModel.getArticles(3, 4);
         articlesRenderer.insertHeadlinersArticlesToDOM(_headliners);
         articlesRenderer.insertLatestToDOM(latest);
         articlesRenderer.insertActuallyToDOM(actually);
@@ -545,4 +619,7 @@ document.addEventListener('DOMContentLoaded', startApp);
 function startApp() {
     articlesRenderer.init();
     renderArticles();
+}
+function toggler(divId) {
+    $("#" + divId).toggle();
 }
