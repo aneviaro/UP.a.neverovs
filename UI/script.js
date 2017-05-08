@@ -1,3 +1,4 @@
+
 var articleModel=(function () {
     var articles = [{
         id: "1",
@@ -508,13 +509,22 @@ var articlesRenderer = (function () {
     var actuallyListNode;
     var latestListNode;
     var headlinersListNode;
+    var _user;
+    var button;
+    var user = undefined;
 
     function init() {
+         user = document.getElementById("user_name");
+        var button = document.getElementById("sign_button");
          pieceOfNewsTemplate = document.querySelector("#pieceofnews_template");
          headlinersTemplate = document.querySelector("#headliner_template");
          actuallyListNode = document.querySelector(".actually");
          latestListNode = document.querySelector(".latest_news");
          headlinersListNode = document.querySelector(".headliners_list");
+        if (user === undefined) {
+            _user.firstElementChild.textContent = 'Гость';
+            button.textContent = 'Войти';
+        }
     }
     function formatDate(d) {
         return d.getDate() + '/' + (d.getMonth() + 1) + '/' + d.getFullYear() + ' ' +
@@ -622,4 +632,17 @@ function startApp() {
 }
 function toggler(divId) {
     $("#" + divId).toggle();
+}
+function addArticle(article) {
+    articleModel.addArticle(article);
+    addTag(article.tags);
+    renderArticles();
+}
+function removeArticle(id) {
+    articleModel.removeArticle(id);
+    renderArticles();
+}
+function editArticle(id, article) {
+    articleModel.editArticle(id, article);
+    renderArticles();
 }
