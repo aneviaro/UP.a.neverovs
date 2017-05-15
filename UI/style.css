@@ -244,3 +244,15 @@ transform: translateY(+0.2em);
 .hidden{
 display:none;
 }
+#author{
+outline:none;
+border-width:1pt;
+border-color: #D3D3D3;
+background: #fff;
+}
+.filters-form p{
+    font-size: 0.9em;
+}
+#date-from, #date-to{
+outline: none;
+}

@@ -219,83 +219,6 @@ var articleModel=(function () {
         imgStatus:"1",
         tags: ["Брест", "право"]
     },
-    {
-        id: "21",
-        title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-        summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-        createdAt: new Date("2017-03-13T10:23:49"),
-        author: "Cat223",
-        content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-        imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-        imgStatus:"1",
-        tags: ["Брест", "право"]
-    },
-    {
-                id: "22",
-                title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-                summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-                createdAt: new Date("2017-03-13T10:23:49"),
-                author: "Cat223",
-                content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-                imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-                imgStatus:"1",
-                tags: ["Брест", "право"]
-    },
-    {
-            id: "23",
-            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-            createdAt: new Date("2017-03-13T10:23:49"),
-            author: "Cat223",
-            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-            imgStatus:"1",
-            tags: ["Брест", "право"]
-    },
-    {
-            id: "24",
-            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-            createdAt: new Date("2017-03-13T10:23:49"),
-            author: "Cat223",
-            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-            imgStatus:"1",
-            tags: ["Брест", "право"]
-    },
-    {
-            id: "25",
-            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-            createdAt: new Date("2017-03-13T10:23:49"),
-            author: "Cat223",
-            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-            imgStatus:"1",
-            tags: ["Брест", "право"]
-    },
-    {
-            id: "26",
-            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-            createdAt: new Date("2017-03-13T10:23:49"),
-            author: "Cat223",
-            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-            imgStatus:"1",
-            tags: ["Брест", "право"]
-    },
-    {
-            id: "27",
-            title: "В Бресте трое анархистов получили еще по пять суток, но уже за мелкое хулиганство",
-            summary: "13 марта в суде Ленинского района Бреста рассмотрели административные дела в отношении трех участников третьего марша нетунеядцев, который прошел 5 марта в Бресте.",
-            createdAt: new Date("2017-03-13T10:23:49"),
-            author: "Cat223",
-            content: "Молодые люди участвовали в акции в рядах анархистов и 6 марта уже были осуждены на 5 суток по ст. 23.34 КоАП за участие в несанкционированном массовом мероприятии.",
-            imageSource:"https://img.tyt.by/620x620s/n/regiony/05/b/brest_marsh_tunejadcy_2017_3.jpg",
-            imgStatus:"1",
-            tags: ["Брест", "право"]
-    },
 ];
 
     var tags = ["Брест", "Минск", "Гомель", "Орша", "Беларусь", "Евросоюз", "Пинск", "Волковысск", "Гродно",
@@ -310,68 +233,111 @@ var articleModel=(function () {
     }
 }
 
-    function getArticles(skip, top, filterConfiguration) {
-    skip = skip || 0;
-    top = top || 19;
-
-    if (filterConfiguration !== undefined) {
-        var author = filterConfiguration.author || "";
-        var dateFrom = filterConfiguration.dateFrom || new Date(-8640000000000000);
-        var dateTo = filterConfiguration.dateTo || new Date(8640000000000000);
-        var _tags = filterConfiguration.tags || [];
-        var imgStatus = filterConfiguration.imgStatus||"";
+//    function getArticles(skip, top, filterConfiguration) {
+//    skip = skip || 0;
+//    top = top || 19;
+//
+//    if (filterConfiguration !== undefined) {
+//        var author = filterConfiguration.author || "";
+//        var dateFrom = filterConfiguration.dateFrom || new Date(-8640000000000000);
+//        var dateTo = filterConfiguration.dateTo || new Date(8640000000000000);
+//        var _tags = filterConfiguration.tags || [];
+//        var imgStatus = filterConfiguration.imgStatus||"";
+//    }
+//
+//    var _articles = articles;
+//
+//    if (filterConfiguration !== undefined) {
+//        _articles = _articles.filter(function (article) {
+//            if (article.author.indexOf(author) > -1) {
+//                return true;
+//            } else {
+//                return false;
+//            }
+//        });
+//
+//        _articles = _articles.filter(function (article) {
+//            if (article.createdAt >= dateFrom && article.createdAt <= dateTo) {
+//                return true;
+//            } else {
+//                return false;
+//            }
+//        });
+//        _articles = _articles.filter(function (article) {
+//            if (article.imgStatus.indexOf(imgStatus)> -1) {
+//                return true;
+//            } else {
+//                return false;
+//            }
+//        });
+//
+//    }
+//    if (_tags !== undefined) {
+//        _articles = _articles.filter(function (article) {
+//            var count = 0;
+//            for (var i = 0; i < article.tags.length; i++) {
+//                for (var j = 0; j < _tags.length; j++) {
+//                    if (article.tags[i] === _tags[j]) {
+//                        count++;
+//                    }
+//                }
+//            }
+//            if (count === _tags.length) {
+//                return true;
+//            }
+//            return false;
+//        });
+//    }
+//
+//    _articles = _articles.slice(skip, skip + top);
+//
+//    _articles.sort(compareDate);
+//
+//    return _articles;
+//}
+    function getArticles(skip, top, filterConfig) {
+        skip = skip || 0;
+        top = top || 20;
+        return filterArticles(filterConfig).slice(skip, skip + top);
     }
+    function filterArticles(filterConfiguration) {
+             if (filterConfiguration !== undefined) {
+                 var author = filterConfiguration.author || "";
+                 var dateFrom = filterConfiguration.dateFrom || new Date(-8640000000000000);
+                 var dateTo = filterConfiguration.dateTo || new Date(8640000000000000);
+                 var _tags = filterConfiguration.tags || [];
+             }
 
-    var _articles = articles;
+             var _articles = articles;
 
-    if (filterConfiguration !== undefined) {
-        _articles = _articles.filter(function (article) {
-            if (article.author.indexOf(author) > -1) {
-                return true;
-            } else {
-                return false;
-            }
-        });
+             if (filterConfiguration !== undefined) {
+                 _articles = _articles.filter(function (article) {
+                     return article.author.indexOf(author) > -1;
+                 });
 
-        _articles = _articles.filter(function (article) {
-            if (article.createdAt >= dateFrom && article.createdAt <= dateTo) {
-                return true;
-            } else {
-                return false;
-            }
-        });
-        _articles = _articles.filter(function (article) {
-            if (article.imgStatus.indexOf(imgStatus)> -1) {
-                return true;
-            } else {
-                return false;
-            }
-        });
+                 _articles = _articles.filter(function (article) {
+                     return article.createdAt >= dateFrom && article.createdAt <= dateTo;
+                 });
+             }
 
+             if (_tags !== undefined) {
+                 _articles = _articles.filter(function (article) {
+                     if (_tags.length === 0) {
+                         return true;
+                     }
+                     _tags.forEach(function (_tag) {
+                         if (article.tags.indexOf(_tag.toLowerCase()) < 0) {
+                             return false;
+                         }
+                     });
+                     return true;
+                 });
+             }
+
+             _articles.sort(compareDate);
+
+             return _articles;
     }
-    if (_tags !== undefined) {
-        _articles = _articles.filter(function (article) {
-            var count = 0;
-            for (var i = 0; i < article.tags.length; i++) {
-                for (var j = 0; j < _tags.length; j++) {
-                    if (article.tags[i] === _tags[j]) {
-                        count++;
-                    }
-                }
-            }
-            if (count === _tags.length) {
-                return true;
-            }
-            return false;
-        });
-    }
-
-    _articles = _articles.slice(skip, skip + top);
-
-    _articles.sort(compareDate);
-
-    return _articles;
-}
 
     function getArticle(id) {
     if (id === undefined) {
@@ -384,6 +350,9 @@ var articleModel=(function () {
         }
     }
 }
+    function getArticlesCount(filterConfig) {
+        return filterArticles(filterConfig).length;
+    }
 
     function validateTags(_tags, tags) {
     for (var i = 0; i < _tags.length; i++) {
@@ -499,6 +468,7 @@ var articleModel=(function () {
     addArticle: addArticle,
     addTag: addTag,
     removeTag: removeTag,
+    getArticlesCount: getArticlesCount
     };
 }());
 
@@ -620,7 +590,7 @@ function renderArticles() {
         var rand = Math.random()*15;
         var latest = articleModel.getArticles(0,3);
         var _headliners = articleModel.getArticles(7,2,{imgStatus:"1"});
-        var actually = articleModel.getArticles(3, 4);
+        var actually = articleModel.getArticles(0, 21);
         articlesRenderer.insertHeadlinersArticlesToDOM(_headliners);
         articlesRenderer.insertLatestToDOM(latest);
         articlesRenderer.insertActuallyToDOM(actually);
@@ -646,3 +616,143 @@ function editArticle(id, article) {
     articleModel.editArticle(id, article);
     renderArticles();
 }
+var pagination = (function(){
+    var ITEMS_PER_PAGE = 4;
+    var total; // всего статей
+    var currentPage; // текущая страница
+    var showMoreButton;
+    var showMoreCallback; // функция, которую вызывать, когда произошел клик по кнопке
+
+    function init(_total, _showMoreCallback) {
+           currentPage = 1;
+           total = _total;
+           showMoreCallback = _showMoreCallback;
+           showMoreButton = document.getElementById('show_more');
+           showMoreButton.addEventListener('click', handleShowMoreClick);
+           showOrHideMoreButton();
+           return getParams();
+    }
+    function handleShowMoreClick() {
+          var paginationParams = nextPage();
+          showMoreCallback(paginationParams.skip, paginationParams.top);
+    }
+    function getTotalPages() {
+          return Math.ceil(total / ITEMS_PER_PAGE);
+    }
+    function nextPage(){
+        currentPage = currentPage + 1;
+        showOrHideMoreButton();
+        return getParams();
+        }
+    function getParams() {
+        return {
+            top: ITEMS_PER_PAGE,
+            skip: (currentPage - 1) * ITEMS_PER_PAGE
+        };
+    }
+
+    function showOrHideMoreButton() {
+        showMoreButton.hidden = getTotalPages() <= currentPage;
+    }
+    return {
+        init: init
+    }
+}());
+var filter = (function () {
+    var form;
+    var submitButton;
+    var filterChangedCallback;
+
+    function init(_filterChangedCallback) {
+        form = document.forms.filters-form;
+        submitButton = document.getElementById("submit");
+        submitButton.addEventListener("click", handleSubmitClick);
+        filterChangedCallback = _filterChangedCallback;
+
+        return getFilter();
+    }
+    function getFilter() {
+        var authorSelect = document.getElementById("author");
+        var dateFromSelect = document.getElementById("date-from");
+        var dateToSelect = document.getElementById("date-to");
+
+        var _author;
+        var _dateFrom;
+        var _dateTo;
+
+        if (dateFromSelect.value) {
+            _dateFrom = new Date(dateFromSelect.value);
+        }
+
+        if (dateToSelect.value) {
+            _dateTo = new Date(dateToSelect.value);
+        }
+
+        if (authorSelect.value) {
+            if (authorSelect.value === 'all') {
+              return {
+                dateFrom: _dateFrom,
+                dateTo: _dateTo
+              };
+            } else {
+                return {
+                    author: authorSelect.value,
+                    dateFrom: _dateFrom,
+                    dateTo: _dateTo
+                }
+            }
+        } else {
+            return {
+                dateFrom: _dateFrom,
+                dateTo: _dateTo
+            }
+        }
+    }
+
+    function handleSubmitClick() {
+        return filterChangedCallback(getFilter());
+    }
+
+    return {
+        init: init,
+        getFilterConfig: getFilter
+    };
+
+}());
+document.addEventListener("DOMContentLoaded", startApp);
+
+     function startApp() {
+         articlesRenderer.init();
+
+         var filterConfig = filter.init(renderArticlesWithFilterConfig);
+
+         renderArticlesWithFilterConfig(filterConfig);
+
+         function renderArticlesWithFilterConfig(filterConfig) {
+             articlesRenderer.removeActuallyFromDOM();
+             articlesRenderer.removeHeadlinersFromDOM();
+             articlesRenderer.removeLatestFromDOM();
+
+             var total = articleModel.getArticlesCount(filterConfig);
+             var paginationParams = pagination.init(total, function (skip, top) {
+                 renderActuallyArticles(skip, top, filterConfig);
+             });
+
+             renderActuallyArticles(paginationParams.skip, paginationParams.top, filterConfig);
+             renderHeadlinersArticles(11,2,{imgStatus:"1"});
+             renderLatestArticles(7,3);
+         }
+
+         function renderActuallyArticles(skip, top, filterConfig) {
+             var actually = articleModel.getArticles(skip, top, filterConfig);
+             articlesRenderer.insertActuallyToDOM(actually);
+         }
+         function renderLatestArticles(skip, top){
+            var latest = articleModel.getArticles(skip,top);
+            articlesRenderer.insertLatestToDOM(latest);
+         }
+         function renderHeadlinersArticles(skip, top){
+            var headliners = articleModel.getArticles(skip,top,filterConfig);
+            articlesRenderer.insertHeadlinersArticlesToDOM(headliners);
+         }
+     }

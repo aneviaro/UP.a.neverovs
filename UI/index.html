@@ -33,30 +33,36 @@
 		</header>
 		<div id="filter" class="hidden">
 				<form class="filters-form">
-					<p>Автор
+					<p>Автор:
 					<select name="author" id="author">
 						<option value="all" selected>Неважно</option>
 						<option value="Antony">Antony</option>
 						<option value="Max">Max</option>
 						<option value="Dr.Cormier">Dr.Cormier</option>
 						<option value="Vitalik">Vitalik</option>
+						<option value="Cosima">Cosima</option>
+						<option value="Franko">Franko</option>
+						<option value="Investigator">Investigator</option>
+						<option value="Olga">Olga</option>
+						<option value="Andrew">Andrew</option>
+						<option value="Cat233">Cat233</option>
 					</select>
 					</p>
-					<p>Дата c
+					<p>Дата:
 					<input type="date" name="date-from" id="date-from">
-					по
+
 					<input type="date" name="date-to" id="date-to">
 					</p>
-					<p>Теги
-					<!--<input type="text" name="tags">-->
-					<select name="tags" id="tags">
-						<option disabled selected></option>
-						<option value="технологии">технологии</option>
-						<option value="космос">космос</option>
-						<option value="наука">наука</option>
-						<option value="общество">общество</option>
-					</select>
-					</p>
+					<!--<p>Теги-->
+					<!--&lt;!&ndash;<input type="text" name="tags">&ndash;&gt;-->
+					<!--<select name="tags" id="tags">-->
+						<!--<option disabled selected></option>-->
+						<!--<option value="технологии">технологии</option>-->
+						<!--<option value="космос">космос</option>-->
+						<!--<option value="наука">наука</option>-->
+						<!--<option value="общество">общество</option>-->
+					<!--</select>-->
+					<!--</p>-->
 					<input type="button" name="submit" id="submit" value="Показать">
 					<!--<button type="button" class="filter-news">Показать</button>-->
 				</form>
@@ -81,8 +87,8 @@
 		</div>
 		<div class="actually">
 		</div>
-		<div class = "showmore">
-			<i class="fa fa-arrow-down fa-3x" title="Добавить новость" id="show_more"></i>
+		<div class = "showmore" id="show_more">
+			<i class="fa fa-arrow-down fa-3x" title="Добавить новость" id=""></i>
 		</div>
         <template id="pieceofnews_template">
             <div class="pieceofnews">
